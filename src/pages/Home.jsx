@@ -44,9 +44,9 @@ const Home = () => {
           </p>
 
           <p>
-            <strong>Phone :</strong>
+            <strong>Age :</strong>
             <br />
-            {user?.phone}
+            {user?.Age}
           </p>
 
           <p>
