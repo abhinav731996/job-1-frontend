@@ -25,34 +25,26 @@ const Home = () => {
 
           <div className="text-center mb-4">
 
-            <h3>
-              {user?.firstName} {user?.lastName}
+            <h3 className="text-muted">
+              Welcome to Dashboard 
             </h3>
-
-            <p className="text-muted">
-              Welcome to Dashboard
-            </p>
 
           </div>
 
           <hr />
 
           <p>
-            <strong>Email :</strong>
-            <br />
+            <strong>Name : </strong>
+            {user?.name}
+          </p>
+          <p>
+            <strong>Email : </strong>
             {user?.email}
           </p>
 
           <p>
-            <strong>Age :</strong>
-            <br />
-            {user?.Age}
-          </p>
-
-          <p>
-            <strong>Password :</strong>
-            <br />
-            {user?.password}
+            <strong>Age : </strong>
+            {user?.age}
           </p>
 
           <Button
